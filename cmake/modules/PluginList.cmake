@@ -22,10 +22,10 @@ IF(LMMS_MINIMAL)
 ENDIF()
 
 SET(LMMS_PLUGIN_LIST
-	${MINIMAL_LIST}
+	# ${MINIMAL_LIST}
 	Amplifier
 	BassBooster
-	BitInvader
+	# BitInvader
 	Bitcrush
 	CarlaBase
 	CarlaPatchbay
@@ -44,22 +44,22 @@ SET(LMMS_PLUGIN_LIST
 	LOMM
 	Lv2Effect
 	Lv2Instrument
-	Lb302
+	# Lb302
 	MidiImport
 	MidiExport
 	MultitapEcho
-	Monstro
+	# Monstro
 	Nes
-	OpulenZ
-	Organic
-	FreeBoy
-	Patman
+	# OpulenZ
+	# Organic
+	# FreeBoy
+	# Patman
 	PeakControllerEffect
 	GigPlayer
 	ReverbSC
 	Sf2Player
-	Sfxr
-	Sid
+	# Sfxr
+	# Sid
 	SlicerT
 	SpectrumAnalyzer
 	StereoEnhancer
@@ -69,12 +69,12 @@ SET(LMMS_PLUGIN_LIST
 	VstBase
 	Vestige
 	VstEffect
-	Watsyn
+	# Watsyn
 	WaveShaper
 	Vectorscope
-	Vibed
-	Xpressive
-	ZynAddSubFx
+	# Vibed
+	# Xpressive
+	# ZynAddSubFx
 )
 
 IF("${PLUGIN_LIST}" STREQUAL "")
